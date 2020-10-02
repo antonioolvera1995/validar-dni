@@ -64,11 +64,15 @@ body {
 }
 
 #button:hover {
-  background-color: white;
+  background-color: rgba(252, 252, 252, 0.582);
   transform: scale(1.1);
 }
 
-
+#button:active{
+  background-color: white;
+  transform: scale(1.1);
+  transition-duration: 300ms;
+}
 
 .on-button {
 
